@@ -1,0 +1,39 @@
+a:hover {
+  background-color: brown;
+}
+
+body {
+  width: 80%;
+  margin: 10vh auto;
+  background-image: url(https://mobile-img.lpcdn.ca/v2/924x/r3996/2322aef1830b3011baf6727980a4411f.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.divParent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.div {
+  height: 100px;
+  width: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+li:nth-child(odd) {
+  background-color: darkred;
+}
